@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jubilee Family Farm | North Durham, NC</title>
+    <style>
+        :root {
+            --primary: #2d5a27;
+            --secondary: #d87d4a;
+            --bg: #fdfaf5;
+            --text: #333;
+        }
+
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background: var(--bg); color: var(--text); line-height: 1.6; }
+        
+        /* Hero Section */
+        header { 
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover; background-position: center; color: white; padding: 120px 20px; text-align: center;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        
+        .section { background: white; padding: 40px; border-radius: 12px; margin-bottom: 30px; shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        
+        h1 { font-size: 3.5rem; margin: 0; }
+        h2 { color: var(--primary); border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        
+        /* Product Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { border: 1px solid #eee; padding: 20px; border-radius: 8px; }
+        .price { font-weight: bold; color: var(--secondary); font-size: 1.2rem; }
+
+        .contact-box { background: var(--primary); color: white; padding: 40px; border-radius: 12px; text-align: center; }
+        .btn { display: inline-block; background: var(--secondary); color: white; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+
+        footer { text-align: center; padding: 40px; font-size: 0.9rem; opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jubilee Family Farm</h1>
+    <p>Healthy Living, Happy Times in North Durham</p>
+</header>
+
+<div class="container">
+    <div class="section">
+        <h2>About the Farm</h2>
+        <p>Located on 10 scenic acres in North Durham, we aim to provide you with fresh, delicious home-grown produce and handmade treats. Owned and operated by <strong>Maggie and Kevin Healy</strong> since 2004, our farm features pesticide-free gardens, a beautiful pond, and space to roam.</p>
+    </div>
+
+    <div class="section">
+        <h2>Summertime is Fruit Time!</h2>
+        <p>All our fruit is grown using organic practices and no-spray methods.</p>
+        <div class="grid">
+            <div class="card">
+                <h3>Blueberries</h3>
+                <p>June/July (U-pick and pre-pick available)</p>
+            </div>
+            <div class="card">
+                <h3>Figs & Muscadines</h3>
+                <p>Ripening over the course of July through September.</p>
+                <p class="price">$4/lb (Pre-pick)</p>
+            </div>
+            <div class="card">
+                <h3>Asian Pears & Persimmons</h3>
+                <p>Available August through October.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Jams, Jellies & Baked Goods</h2>
+        <div class="grid">
+            <div>
+                <h3>Preserves</h3>
+                <ul>
+                    <li>Hot Pepper Jelly</li>
+                    <li>Christmas Jam</li>
+                    <li>Blueberry / Black and Blue Jam</li>
+                </ul>
+                <p class="price">$7 each or 3 for $19</p>
+            </div>
+            <div>
+                <h3>Baked Treats</h3>
+                <ul>
+                    <li>Famous Cheese Straws ($6/bag)</li>
+                    <li>Chocolate Covered Pretzels ($3.50/$7)</li>
+                    <li>Fresh Baked Dinner Bread ($3/$5)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <h2>Place an Order</h2>
+        <p>Please allow 48 hours for baked good orders.</p>
+        <p>Email: <strong>jubileefamilyfarmdurham@gmail.com</strong></p>
+        <p>Phone: <strong>(251) 599-5252</strong></p>
+        <a href="mailto:jubileefamilyfarmdurham@gmail.com" class="btn">Click Here to Email Us</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Jubilee Family Farm | North Durham, NC
+</footer>
+
+</body>
+</html>
